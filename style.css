@@ -1,0 +1,203 @@
+body{
+    height: 100%;
+    background-color: black;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 27vw;
+    top: 38vw;
+}
+
+
+/*OPENING SCENE CSS*/
+.opening{
+    background-image: url("https://image.lexica.art/full_jpg/fc8856be-ed64-43ec-affd-7371008164c8"); 
+    background-color: black; 
+    height: 720px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: flex;
+}
+.title{
+    text-align: center;
+    font-size: 60px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 41vw;
+    top: 2vw;
+}
+#user-one{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 20vw;
+    left: 47vw;
+}
+
+#opening-left-opt{
+    width: 160px;
+    height: 60px;
+    font-size: 20px;
+    position: absolute;
+    left: 35vw;
+    top: 8vw;
+}
+
+#opening-right-opt{
+    width: 160px;
+    height: 60px;
+    font-size: 20px;
+    position: absolute;
+    left: 72vw;
+    top: 8vw;
+}
+
+
+
+/*LEFT SCENE CSS*/
+.left-scene{
+    background-image: url("https://art.ngfiles.com/images/1131000/1131823_vannzilla_pixel-art-cave-background.png?f1578086175"); 
+    background-color: black; 
+    height: 720px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: none;
+}
+
+#user-two{
+    width: 205px;
+    height: auto;
+    position: absolute;
+    top: 18vw;
+    left: 80vw;
+}
+
+#ghost{
+    width: 550px;
+    height: auto;
+    transform: scaleX(-1);
+    position: absolute;
+    top: 4vw;
+    left: 20vw;
+}
+#serpent{
+    width: 450px;
+    height: auto;
+    position: absolute;
+    top: 11vw;
+    left: 3vw;
+}
+#beetle{
+    width: 645px;
+    height: auto;
+    position: absolute;
+    top: 8vw;
+    left: 40vw;
+}
+
+.game-over {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    z-index: 200;
+    animation: appear .25s forwards;
+    animation-delay: 8s;
+    background: red;
+}
+@keyframes appear {
+    from {
+      top: -100vh;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+.win-scene{
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/059/251/559/large/aliff-luqman-layout-1-interior-cave-fix.jpg?1675960556"); 
+    background-color: black; 
+    height: 720px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: none;
+}
+
+
+
+/*RIGHT SCENE CSS*/
+.right-scene{
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/053/207/731/large/obrin-7.jpg?1661689001"); 
+    background-color: black; 
+    height: 720px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: none;
+}
+#user-three{
+    width: 250px;
+    height: auto;
+    transform: scaleX(-1);
+    position: absolute;
+    top: 20vw;
+    left: 4vw;
+}
+#bad-chest{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top:17vw;
+    left: 55vw;
+}
+#good-chest{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 16vw;
+    left: 80vw;
+}
+#you-died{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: none;
+}
+#money{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    display: none;
+}
+#main-text{
+    text-align: center;
+    font-size: 60px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 41vw;
+    top: 2vw;
+}
+#sub-text{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 27vw;
+    top: 38vw;
+}
